@@ -5,6 +5,15 @@
 - Need to know concepts of IoT
 - Manufacturing Knowledge
 
+## Internet of things
+
+- What is IoT
+- Internet of things is small computer connected to sensors
+- For Students Computer boards will be different, sensors and bread board and wires
+- Bread board is good to connect computer and sensors
+- Some times computer like raspberry pi has GPIO pins to connect directly to sensors
+- Some time that is not enough so bread board gives extensibility
+
 ## IoT Cart
 
 https://github.com/microsoft/iot-curriculum/tree/main/cart
