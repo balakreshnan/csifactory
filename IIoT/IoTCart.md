@@ -160,3 +160,21 @@ https://github.com/microsoft/iot-curriculum/tree/main/cart
 - Reinforcement learning
 - Tracbility with Blockchain
 - Mixed reality - next gen UI
+
+## Smart Building or Manufacturing Facility
+
+- Worker shift clocking using Face recognition
+- Work place safety - OSHA compliance for Safety glass, Mask, vests or coats
+- Covid Tracking
+- Covid vaccine passport
+- Social distancing
+- Keyless entries to facility and authentication for lines
+- CO2, occupancy management in plant floor
+- Humidity and Oxygen control
+- Power / energy usage - predict energy usage and save money
+- Inventory theft/restocking management
+- Water usage and monitoring
+- Recycle water and other systems
+- Renuable energy management and usage, and predict usage for production
+- Clean air
+- Sustainablity
