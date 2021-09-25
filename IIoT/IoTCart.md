@@ -21,6 +21,7 @@ https://github.com/microsoft/iot-curriculum/tree/main/cart
     - Use ful for process industry where humidity and temperature can affect the production process
     - Temperature and humidty can be indoor or outdoor
 - Collect data to predict Temperature and 
+- Like Painting (power coat)
 
 #### Grove - Rotary Angle Sensor
 
@@ -121,6 +122,8 @@ https://github.com/microsoft/iot-curriculum/tree/main/cart
 - Provide UI to control motor speed
 - Build model to automatically control motor
 - Reinforcement learning to control motor speed
+- Pose detection for line workers
+- Pose detection for worker distress
 
 ## Jetson AGX Xavier
 
