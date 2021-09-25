@@ -139,6 +139,7 @@ https://github.com/microsoft/iot-curriculum/tree/main/cart
 - Reinforcement learning to control motor speed
 - Pose detection for line workers
 - Pose detection for worker distress
+- https://developer.nvidia.com/embedded/community/jetson-projects
 
 ## Jetson AGX Xavier
 
@@ -147,6 +148,7 @@ https://github.com/microsoft/iot-curriculum/tree/main/cart
 - Faster inferencing for fast producing systems
 - Low latency object detection for quality or product counting
 - Low latency inventory detection 
+- https://developer.nvidia.com/embedded/community/jetson-projects
 
 ## Predictive Analytics - Data Science
 
