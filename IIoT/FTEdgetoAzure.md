@@ -58,7 +58,7 @@ Other challenge is what do we do with the data. The way we can find a solution f
 
 - Using Control Logix to Azure Cloud. This option allows to control multiple PLC in Customer Site.
 
-![alt text](https://github.com/balakreshnan/csifactory/blob/master/images/IIoT-Arch1.jpg "Architecture")
+![alt text](https://github.com/balakreshnan/csifactory/blob/main/IIoT/images/IIoT-Arch1.jpg "Architecture")
 
 ## Steps to Connect
 
@@ -101,7 +101,7 @@ Other challenge is what do we do with the data. The way we can find a solution f
 - Windows IOT 10
 - Open Firewall ports
 
-![alt text](https://github.com/balakreshnan/csifactory/blob/master/images/FTEEDge.jpg "Architecture")
+![alt text](https://github.com/balakreshnan/csifactory/blob/main/IIoT/images/FTEEDge.jpg "Architecture")
 
 ## Steps to program Compact Logix 5480
 
@@ -124,13 +124,13 @@ Other challenge is what do we do with the data. The way we can find a solution f
 - Wait for the system should show all green
 - Select Store and Forward - to keep the data if it goes down
 
-![alt text](https://github.com/balakreshnan/csifactory/blob/master/images/purduekit.jpg "Architecture")
+![alt text](https://github.com/balakreshnan/csifactory/blob/main/IIoT/images/purduekit.jpg "Architecture")
 
-![alt text](https://github.com/balakreshnan/csifactory/blob/master/images/fte0.jpg "Architecture")
+![alt text](https://github.com/balakreshnan/csifactory/blob/main/IIoT/images/fte0.jpg "Architecture")
 
-![alt text](https://github.com/balakreshnan/csifactory/blob/master/images/fte1.jpg "Architecture")
+![alt text](https://github.com/balakreshnan/csifactory/blob/main/IIoT/images/fte1.jpg "Architecture")
 
-![alt text](https://github.com/balakreshnan/csifactory/blob/master/images/fte2.jpg "Architecture")
+![alt text](https://github.com/balakreshnan/csifactory/blob/main/IIoT/images/fte2.jpg "Architecture")
 
 ## Azure Cloud Side
 
@@ -152,15 +152,15 @@ into outputblob from input
 
 - Stream Analytics Input
 
-![alt text](https://github.com/balakreshnan/csifactory/blob/master/images/rockfte1.jpg "Architecture")
+![alt text](https://github.com/balakreshnan/csifactory/blob/main/IIoT/images/rockfte1.jpg "Architecture")
 
 - Stream Analytics output
 
-![alt text](https://github.com/balakreshnan/csifactory/blob/master/images/rockfte2.jpg "Architecture")
+![alt text](https://github.com/balakreshnan/csifactory/blob/main/IIoT/images/rockfte2.jpg "Architecture")
 
 - Here is the output from Strean analytics persisted into Azure ADLS gen2 storage
 
-![alt text](https://github.com/balakreshnan/csifactory/blob/master/images/rockfte3.jpg "Architecture")
+![alt text](https://github.com/balakreshnan/csifactory/blob/main/IIoT/images/rockfte3.jpg "Architecture")
 
 - Sample Data set with simulated values
 
@@ -336,6 +336,6 @@ joezlogix,"[""ra-cip-value://driver-cip/10.97.1.68/Program:MainProgram.counter1"
 joezlogix,"[""ra-cip-value://driver-cip/10.97.1.68/Program:MainProgram.counter1""]","[[{""q"":192,""t"":""2020-11-23T22:51:55.696Z"",""v"":4937},{""q"":192,""t"":""2020-11-23T22:51:57.696Z"",""v"":4941},{""q"":192,""t"":""2020-11-23T22:51:59.696Z"",""v"":4945},{""q"":192,""t"":""2020-11-23T22:52:01.695Z"",""v"":4949},{""q"":192,""t"":""2020-11-23T22:52:03.696Z"",""v"":4953}]]"
 ```
 
-![alt text](https://github.com/balakreshnan/csifactory/blob/master/images/adb1.jpg "Architecture")
+![alt text](https://github.com/balakreshnan/csifactory/blob/main/IIoT/images/adb1.jpg "Architecture")
 
 - More to come ...
