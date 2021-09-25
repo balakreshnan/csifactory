@@ -105,6 +105,7 @@ https://github.com/microsoft/iot-curriculum/tree/main/cart
 - Provide UI to control motor speed
 - Build model to automatically control motor
 - Reinforcement learning to control motor speed
+- Build digital twins with realtime feed
 
 ## Jetson Nano
 
@@ -145,4 +146,6 @@ https://github.com/microsoft/iot-curriculum/tree/main/cart
 - Autonomous control System
 - Vision and Audio based model
 - Deep Learning model
+- Reinforcement learning
 - Tracbility with Blockchain
+- Mixed reality - next gen UI
