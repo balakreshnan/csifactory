@@ -1,5 +1,10 @@
 # IoT Cart for Industrial IoT beginners
 
+## Pre-requistie
+
+- Need to know concepts of IoT
+- Manufacturing Knowledge
+
 ## IoT Cart
 
 https://github.com/microsoft/iot-curriculum/tree/main/cart
@@ -132,3 +137,12 @@ https://github.com/microsoft/iot-curriculum/tree/main/cart
 - Faster inferencing for fast producing systems
 - Low latency object detection for quality or product counting
 - Low latency inventory detection 
+
+## Predictive Analytics - Data Science
+
+- Intelligent Supply Chain
+- Predictive Maintenance
+- Autonomous control System
+- Vision and Audio based model
+- Deep Learning model
+- Tracbility with Blockchain
