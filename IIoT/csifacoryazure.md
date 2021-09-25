@@ -27,3 +27,7 @@
 - Create Stream Analytics
 
 ![alt text](https://github.com/balakreshnan/csifactory/blob/main/IIoT/images/csi4.jpg "Architecture")
+
+- Next configuring 5480 to send data to cloud
+- Create Synapse Analytics workspace
+- Write Spark code to process
