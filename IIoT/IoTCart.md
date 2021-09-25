@@ -94,6 +94,11 @@ https://github.com/microsoft/iot-curriculum/tree/main/cart
 - Automous systems to move objects
 - Conveyour systems using vision
 - Packaging systems
+- GPS guided systems using GPS
+- Detect speaker or remote command using voice
+- Provide UI to control motor speed
+- Build model to automatically control motor
+- Reinforcement learning to control motor speed
 
 ## Jetson Nano
 
@@ -111,6 +116,11 @@ https://github.com/microsoft/iot-curriculum/tree/main/cart
 - Automous systems to move objects
 - Conveyour systems using vision
 - Packaging systems
+- GPS guided systems using GPS
+- Detect speaker or remote command using voice
+- Provide UI to control motor speed
+- Build model to automatically control motor
+- Reinforcement learning to control motor speed
 
 ## Jetson AGX Xavier
 
@@ -118,4 +128,4 @@ https://github.com/microsoft/iot-curriculum/tree/main/cart
 - Inference multiple camera input
 - Faster inferencing for fast producing systems
 - Low latency object detection for quality or product counting
-- Low latency inventory detection
+- Low latency inventory detection 
