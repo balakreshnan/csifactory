@@ -5,6 +5,10 @@
 - Azure Account
 - Resource Group
 
+## Architect
+
+![alt text](https://github.com/balakreshnan/csifactory/blob/main/IIoT/images/csi6.jpg "Architecture")
+
 ## Setup
 
 - Create a resource group
