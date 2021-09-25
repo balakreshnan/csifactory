@@ -115,6 +115,28 @@ https://github.com/microsoft/iot-curriculum/tree/main/cart
 - Build model to automatically control motor
 - Reinforcement learning to control motor speed
 - Build digital twins with realtime feed
+- Flow control using fluid dynamics
+- Air pressure control
+- Nozzle controls
+- Bearing controls
+- Power monitoring and predicting
+- Creating HMI UI in edge
+- Power tools or station operation
+- Human machine interaction feedback loop control
+- Dust control
+- Heat control
+- Lathe or CNC machine monitoring and controlling
+- inventory control for line/station
+- Measurement management for tools - process and measurement
+- Floor technical management to fix and do RCA controls
+- Reliability management for improve process and productivity
+- Integrate disperate systems data into one place for AI/ML insights
+- How to integrate different systems to send and receive information for seamless communication
+- How can AI match desperate systems schema and align
+- Asset management application in edge and cloud
+- Receipe management
+- Knwoledge mining system to understand and do RCA
+- Remote assit and repair management
 
 ## Jetson Nano
 
