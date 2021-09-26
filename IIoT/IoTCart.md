@@ -95,6 +95,8 @@ https://github.com/microsoft/iot-curriculum/tree/main/cart
 
 ## Rasperry Pi with Camera
 
+- Rasperry pi temperature simulator and build a machine learning model using big data
+- https://github.com/balakreshnan/raspiot/blob/main/raspiot.md
 - Use Camera to build deep learning object detection model
 - Play with open source models
 - Create your own deep neural network architecture
