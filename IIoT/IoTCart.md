@@ -137,6 +137,12 @@ https://github.com/microsoft/iot-curriculum/tree/main/cart
 - Receipe management
 - Knwoledge mining system to understand and do RCA
 - Remote assit and repair management
+- Power monitoring and predicting to save energy cost
+- Technician Station UI with Knowledge Graph for troubleshooting and training - AI Enabled
+- Hololens based Training for station/line
+- Parts manual knowledge search - AI enabled
+- Machine Teaching
+- Github Codex - Open AI to assit coding using visual Studio Code
 
 ## Jetson Nano
 
