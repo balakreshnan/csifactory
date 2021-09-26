@@ -143,6 +143,17 @@ https://github.com/microsoft/iot-curriculum/tree/main/cart
 - Parts manual knowledge search - AI enabled
 - Machine Teaching
 - Github Codex - Open AI to assit coding using visual Studio Code
+- Asset management with Graph and realtime insights with AI
+- Plant floor design tools for line and station
+- Plant monitoring
+- Employee health and safety applications
+- Fraud management with blockchain
+- Insurance management with blockchain for production and manufacturing
+- Forecasting materials
+- Forecasting OEE
+- Forecasting projecting delays
+- Finding right supplier for jobs
+- Find where to invest
 
 ## Jetson Nano
 
