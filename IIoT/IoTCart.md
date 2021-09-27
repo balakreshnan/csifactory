@@ -156,6 +156,9 @@ https://github.com/microsoft/iot-curriculum/tree/main/cart
 - Forecasting projecting delays
 - Finding right supplier for jobs
 - Find where to invest
+- Create Station Agent or Line Agent to get OEE KPI information
+- Agents should be able to control using chat and voice
+- Agents can also control the device based on commands
 
 ## Jetson Nano
 
