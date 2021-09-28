@@ -159,6 +159,11 @@ https://github.com/microsoft/iot-curriculum/tree/main/cart
 - Create Station Agent or Line Agent to get OEE KPI information
 - Agents should be able to control using chat and voice
 - Agents can also control the device based on commands
+- Create an Application that an Operator can control (Cloud 2 Device), remotely from anywhere
+- Real-time video analysis at the edge - might be a bit advanced
+- Text Analytics from labels/barcodes - potenitally to predict how much Inventory there is
+- Mixed Reality - Smart Buidling/Floor Plan showing OEE
+- Send alerts via email/text message if threshold have been reached
 
 ## Jetson Nano
 
