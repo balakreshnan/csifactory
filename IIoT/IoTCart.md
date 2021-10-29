@@ -96,7 +96,11 @@ https://github.com/microsoft/iot-curriculum/tree/main/cart
 ## Rasperry Pi with Camera
 
 - Rasperry pi temperature simulator and build a machine learning model using big data
-- https://github.com/balakreshnan/raspiot/blob/main/raspiot.md
+    - https://github.com/balakreshnan/raspiot/blob/main/raspiot.md
+    - Raspberry Pi with DHT11 Temperature sensor - Collect data for Big data analysis
+    - IoT Device - SDK style - https://github.com/balakreshnan/raspiot/blob/main/raspdht11.md
+    - With IoT Edge (Docker container) - https://github.com/balakreshnan/raspiot/blob/main/raspdht11iotedge.md
+    - Using Node Red as docker - https://github.com/balakreshnan/raspiot/blob/main/raspiotnodered.md
 - Use Camera to build deep learning object detection model
 - Play with open source models
 - Create your own deep neural network architecture
@@ -203,6 +207,10 @@ https://github.com/microsoft/iot-curriculum/tree/main/cart
 
 - Intelligent Supply Chain
 - Predictive Maintenance
+    - Collect Industrial IoT Data for big data processing
+    - Using Rockwell FTE Edge Gateway with IoT Hub Support
+    - SDK approach using IoT Device (no containers support)
+    - https://github.com/balakreshnan/IIoT-AI/blob/master/IIoT/FTEdgetoAzure.md
 - Autonomous control System
 - Vision and Audio based model
 - Deep Learning model
