@@ -33,5 +33,24 @@
 ![alt text](https://github.com/balakreshnan/csifactory/blob/main/IIoT/images/csi4.jpg "Architecture")
 
 - Next configuring 5480 to send data to cloud
+
+## Configure Rockwell Linx Gateway to collect and send data from assembly line using Compactlogix 5480 to Azure
+
+- Installed a VM in the Industrical data center
+- Then get Rockwell Linx Gateway license and download and install the software
+- Connect the gateway to Azure IoT hub
+
+![alt text](https://github.com/balakreshnan/csifactory/blob/main/IIoT/images/linegateway1.png "Architecture")
+
+- Configure data source to send data to Azure IoT Hub
+- Configure data source to PLC to get the data from assembly line
+- Select the tags/sensor and what frequency to send data to Azure IoT Hub
+
+![alt text](https://github.com/balakreshnan/csifactory/blob/main/IIoT/images/linegateway2.png "Architecture")
+
+- Once the communication is established, the data will be sent to Azure IoT Hub
+- Communication is secured using SSL and also key based.
+- We can also controll the data collection frequency and volume in the gateway
+
 - Create Synapse Analytics workspace
 - Write Spark code to process
