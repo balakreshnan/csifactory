@@ -54,3 +54,9 @@
 
 - Create Synapse Analytics workspace
 - Write Spark code to process
+
+- Detail instructions available in the link below
+
+https://github.com/balakreshnan/AzurePercept/blob/main/Analytics/synapseint.md
+
+- More to come
