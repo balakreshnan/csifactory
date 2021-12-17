@@ -7,7 +7,7 @@
 
 ## End to End Data flow and processing
 
-![alt text](https://github.com/balakreshnan/csifactory/blob/main/IIoT/images/flowetoe.png "Architecture")
+![alt text](https://github.com/balakreshnan/csifactory/blob/main/IIoT/images/flowetoe.jpg "Architecture")
 
 ## Architect
 
