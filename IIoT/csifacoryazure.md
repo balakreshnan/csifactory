@@ -241,7 +241,7 @@ ftedge_gateway_01,x-ra/cip/bool,test-model.New node.Slow_Flash.Flash_Output,ra-c
 ftedge_gateway_01,x-ra/cip/bool,,ra-cip-value://driver-cip/192.168.1.10/SuperFast_Flash.Flash_Output,192,2021-12-17T17:46:39.013Z,
 ```
 
-![alt text](https://github.com/balakreshnan/IIoT-AI/blob/master/IIoT/images/csitestbedsql1.jpg "Architecture")
+![alt text](https://github.com/balakreshnan/csifactory/blob/main/IIoT/images/csitestbedsql1.jpg "Architecture")
 
 - lets write back to store the data
 
