@@ -59,4 +59,15 @@
 
 https://github.com/balakreshnan/AzurePercept/blob/main/Analytics/synapseint.md
 
-- More to come
+## Stream Analytics
+
+- Create a stream analytics job
+- Sink is going to be ADLS gen2
+- Store as parquet to further processing
+
+## Big Data
+
+- Enables Spark based Big data processing
+- Common data model for manufacturing to land the Assembly data
+
+## Visualization
