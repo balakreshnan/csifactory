@@ -36,12 +36,13 @@
 
 ![alt text](https://github.com/balakreshnan/csifactory/blob/main/IIoT/images/csi4.jpg "Architecture")
 
-- Next configuring 5480 to send data to cloud
+- Next configuring PLC processor or data source(5800 series)
 
-## Configure Rockwell Linx Gateway to collect and send data from assembly line using Compactlogix 5480 to Azure
+## Configure Rockwell Linx Gateway to collect and send data from assembly line using PLC processor or data source(5800 series) to Azure
 
 - Installed a VM in the Industrical data center
 - Then get Rockwell Linx Gateway license and download and install the software
+- Connect to PLC in our case it was Allenbradley 1756-L8-5580
 - Connect the gateway to Azure IoT hub
 
 ![alt text](https://github.com/balakreshnan/csifactory/blob/main/IIoT/images/linegateway1.png "Architecture")
