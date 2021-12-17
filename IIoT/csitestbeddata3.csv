@@ -1,0 +1,21 @@
+ConnectionDeviceId,gatewayData[0].mimeType,tagname,tagid,tagquality,tagtime,tagvalue
+ftedge_gateway_01,x-ra/cip/bool,test-model.New node.Slow_Flash.Flash_Output,ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output,192,2021-12-17T17:46:03.137Z,1
+ftedge_gateway_01,x-ra/cip/bool,test-model.New node.Slow_Flash.Flash_Output,ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output,192,2021-12-17T17:46:05.14Z,1
+ftedge_gateway_01,x-ra/cip/bool,,ra-cip-value://driver-cip/192.168.1.10/SuperFast_Flash.Flash_Output,192,2021-12-17T17:46:05.452Z,
+ftedge_gateway_01,x-ra/cip/bool,test-model.New node.Slow_Flash.Flash_Output,ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output,192,2021-12-17T17:46:07.14Z,1
+ftedge_gateway_01,x-ra/cip/bool,test-model.New node.Slow_Flash.Flash_Output,ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output,192,2021-12-17T17:46:09.143Z,1
+ftedge_gateway_01,x-ra/cip/bool,test-model.New node.Slow_Flash.Flash_Output,ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output,192,2021-12-17T17:46:11.143Z,1
+ftedge_gateway_01,x-ra/cip/bool,,ra-cip-value://driver-cip/192.168.1.10/SuperFast_Flash.Flash_Output,192,2021-12-17T17:46:11.455Z,1
+ftedge_gateway_01,x-ra/cip/bool,test-model.New node.Slow_Flash.Flash_Output,ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output,192,2021-12-17T17:46:13.143Z,1
+ftedge_gateway_01,x-ra/cip/bool,test-model.New node.Slow_Flash.Flash_Output,ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output,192,2021-12-17T17:46:15.143Z,1
+ftedge_gateway_01,x-ra/cip/bool,test-model.New node.Slow_Flash.Flash_Output,ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output,192,2021-12-17T17:46:17.143Z,1
+ftedge_gateway_01,x-ra/cip/bool,test-model.New node.Slow_Flash.Flash_Output,ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output,192,2021-12-17T17:46:19.143Z,1
+ftedge_gateway_01,x-ra/cip/bool,,ra-cip-value://driver-cip/192.168.1.10/SuperFast_Flash.Flash_Output,192,2021-12-17T17:46:19.455Z,
+ftedge_gateway_01,x-ra/cip/bool,test-model.New node.Slow_Flash.Flash_Output,ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output,192,2021-12-17T17:46:21.143Z,1
+ftedge_gateway_01,x-ra/cip/bool,test-model.New node.Slow_Flash.Flash_Output,ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output,192,2021-12-17T17:46:23.143Z,1
+ftedge_gateway_01,x-ra/cip/bool,test-model.New node.Slow_Flash.Flash_Output,ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output,192,2021-12-17T17:46:25.143Z,1
+ftedge_gateway_01,x-ra/cip/bool,,ra-cip-value://driver-cip/192.168.1.10/SuperFast_Flash.Flash_Output,192,2021-12-17T17:46:25.455Z,1
+ftedge_gateway_01,x-ra/cip/bool,test-model.New node.Slow_Flash.Flash_Output,ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output,192,2021-12-17T17:46:27.151Z,1
+ftedge_gateway_01,x-ra/cip/bool,test-model.New node.Slow_Flash.Flash_Output,ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output,192,2021-12-17T17:46:29.158Z,1
+ftedge_gateway_01,x-ra/cip/bool,test-model.New node.Slow_Flash.Flash_Output,ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output,192,2021-12-17T17:46:31.158Z,1
+ftedge_gateway_01,x-ra/cip/bool,,ra-cip-value://driver-cip/192.168.1.10/SuperFast_Flash.Flash_Output,192,2021-12-17T17:46:39.013Z,
