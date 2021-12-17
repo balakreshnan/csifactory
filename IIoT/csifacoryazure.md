@@ -5,6 +5,10 @@
 - Azure Account
 - Resource Group
 
+## End to End Data flow and processing
+
+![alt text](https://github.com/balakreshnan/csifactory/blob/main/IIoT/images/flowetoe.png "Architecture")
+
 ## Architect
 
 ![alt text](https://github.com/balakreshnan/csifactory/blob/main/IIoT/images/csi7.jpg "Architecture")
