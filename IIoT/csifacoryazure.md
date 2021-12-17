@@ -43,19 +43,29 @@
 - Installed a VM in the Industrical data center
 - Then get Rockwell Linx Gateway license and download and install the software
 - Connect to PLC in our case it was Allenbradley 1756-L8-5580
+
+- Open Gateway
+
+![alt text](https://github.com/balakreshnan/csifactory/blob/main/IIoT/images/linegateway3-1.png "Architecture")
+
 - Connect the gateway to Azure IoT hub
 
 ![alt text](https://github.com/balakreshnan/csifactory/blob/main/IIoT/images/linegateway1.png "Architecture")
 
 - Configure data source to send data to Azure IoT Hub
 - Configure data source to PLC to get the data from assembly line
+
+![alt text](https://github.com/balakreshnan/csifactory/blob/main/IIoT/images/linegateway3-3.png "Architecture")
+
 - Select the tags/sensor and what frequency to send data to Azure IoT Hub
 
-![alt text](https://github.com/balakreshnan/csifactory/blob/main/IIoT/images/linegateway2.png "Architecture")
+![alt text](https://github.com/balakreshnan/csifactory/blob/main/IIoT/images/linegateway3-2.png "Architecture")
 
 - Once the communication is established, the data will be sent to Azure IoT Hub
 - Communication is secured using SSL and also key based.
 - We can also controll the data collection frequency and volume in the gateway
+
+![alt text](https://github.com/balakreshnan/csifactory/blob/main/IIoT/images/linegateway2.png "Architecture")
 
 - Create Synapse Analytics workspace
 - Write Spark code to process
@@ -82,6 +92,12 @@ IoTHub.ConnectionDeviceId as ConnectionDeviceId,
 i.IoTHub.EnqueuedTime as EnqueuedTime
 into outputblob from input
 ```
+
+![alt text](https://github.com/balakreshnan/csifactory/blob/main/IIoT/images/linegateway3.png "Architecture")
+
+- Test Query and see data
+
+![alt text](https://github.com/balakreshnan/csifactory/blob/main/IIoT/images/linegateway3-4.png "Architecture")
 
 - sample output
 
