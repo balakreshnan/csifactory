@@ -7,7 +7,7 @@
 
 ## Architect
 
-![alt text](https://github.com/balakreshnan/csifactory/blob/main/IIoT/images/csi6.jpg "Architecture")
+![alt text](https://github.com/balakreshnan/csifactory/blob/main/IIoT/images/csi7.jpg "Architecture")
 
 ## Setup
 
