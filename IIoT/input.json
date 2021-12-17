@@ -1,0 +1,1341 @@
+[
+  {
+    "gatewayData": [
+      {
+        "tag_id": "ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output",
+        "model_id": "test-model.New node.Slow_Flash.Flash_Output",
+        "vqts": [
+          {
+            "v": 1,
+            "q": 192,
+            "t": "2021-12-17T17:47:26.7410000Z"
+          }
+        ],
+        "mimeType": "x-ra/cip/bool"
+      }
+    ],
+    "EventProcessedUtcTime": "2021-12-17T17:47:52.9352640Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2021-12-17T17:45:29.7530000Z",
+    "IoTHub": {
+      "MessageId": "cgp-iot-0.09657188441178888",
+      "CorrelationId": null,
+      "ConnectionDeviceId": "ftedge_gateway_01",
+      "ConnectionDeviceGenerationId": "637680989196195857",
+      "EnqueuedTime": "2021-12-17T17:45:29.7400000Z",
+      "StreamId": null
+    }
+  },
+  {
+    "gatewayData": [
+      {
+        "tag_id": "ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output",
+        "model_id": "test-model.New node.Slow_Flash.Flash_Output",
+        "vqts": [
+          {
+            "v": 1,
+            "q": 192,
+            "t": "2021-12-17T17:47:24.7410000Z"
+          }
+        ],
+        "mimeType": "x-ra/cip/bool"
+      }
+    ],
+    "EventProcessedUtcTime": "2021-12-17T17:47:52.9352640Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2021-12-17T17:45:27.7530000Z",
+    "IoTHub": {
+      "MessageId": "cgp-iot-0.2537106644146523",
+      "CorrelationId": null,
+      "ConnectionDeviceId": "ftedge_gateway_01",
+      "ConnectionDeviceGenerationId": "637680989196195857",
+      "EnqueuedTime": "2021-12-17T17:45:27.7400000Z",
+      "StreamId": null
+    }
+  },
+  {
+    "gatewayData": [
+      {
+        "tag_id": "ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output",
+        "model_id": "test-model.New node.Slow_Flash.Flash_Output",
+        "vqts": [
+          {
+            "v": 1,
+            "q": 192,
+            "t": "2021-12-17T17:47:22.7410000Z"
+          }
+        ],
+        "mimeType": "x-ra/cip/bool"
+      }
+    ],
+    "EventProcessedUtcTime": "2021-12-17T17:47:52.9352640Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2021-12-17T17:45:25.7530000Z",
+    "IoTHub": {
+      "MessageId": "cgp-iot-0.9645096592128815",
+      "CorrelationId": null,
+      "ConnectionDeviceId": "ftedge_gateway_01",
+      "ConnectionDeviceGenerationId": "637680989196195857",
+      "EnqueuedTime": "2021-12-17T17:45:25.7400000Z",
+      "StreamId": null
+    }
+  },
+  {
+    "gatewayData": [
+      {
+        "tag_id": "ra-cip-value://driver-cip/192.168.1.10/SuperFast_Flash.Flash_Output",
+        "vqts": [
+          {
+            "v": 0,
+            "q": 192,
+            "t": "2021-12-17T17:47:21.0530000Z"
+          }
+        ],
+        "mimeType": "x-ra/cip/bool"
+      }
+    ],
+    "EventProcessedUtcTime": "2021-12-17T17:47:52.9352640Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2021-12-17T17:45:24.0650000Z",
+    "IoTHub": {
+      "MessageId": "cgp-iot-0.9736082557868964",
+      "CorrelationId": null,
+      "ConnectionDeviceId": "ftedge_gateway_01",
+      "ConnectionDeviceGenerationId": "637680989196195857",
+      "EnqueuedTime": "2021-12-17T17:45:24.0520000Z",
+      "StreamId": null
+    }
+  },
+  {
+    "gatewayData": [
+      {
+        "tag_id": "ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output",
+        "model_id": "test-model.New node.Slow_Flash.Flash_Output",
+        "vqts": [
+          {
+            "v": 1,
+            "q": 192,
+            "t": "2021-12-17T17:47:20.7410000Z"
+          }
+        ],
+        "mimeType": "x-ra/cip/bool"
+      }
+    ],
+    "EventProcessedUtcTime": "2021-12-17T17:47:52.9352640Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2021-12-17T17:45:23.7530000Z",
+    "IoTHub": {
+      "MessageId": "cgp-iot-0.49480196025887757",
+      "CorrelationId": null,
+      "ConnectionDeviceId": "ftedge_gateway_01",
+      "ConnectionDeviceGenerationId": "637680989196195857",
+      "EnqueuedTime": "2021-12-17T17:45:23.7400000Z",
+      "StreamId": null
+    }
+  },
+  {
+    "gatewayData": [
+      {
+        "tag_id": "ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output",
+        "model_id": "test-model.New node.Slow_Flash.Flash_Output",
+        "vqts": [
+          {
+            "v": 1,
+            "q": 192,
+            "t": "2021-12-17T17:47:18.7340000Z"
+          }
+        ],
+        "mimeType": "x-ra/cip/bool"
+      }
+    ],
+    "EventProcessedUtcTime": "2021-12-17T17:47:52.9352640Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2021-12-17T17:45:21.7370000Z",
+    "IoTHub": {
+      "MessageId": "cgp-iot-0.5284650471167345",
+      "CorrelationId": null,
+      "ConnectionDeviceId": "ftedge_gateway_01",
+      "ConnectionDeviceGenerationId": "637680989196195857",
+      "EnqueuedTime": "2021-12-17T17:45:21.7400000Z",
+      "StreamId": null
+    }
+  },
+  {
+    "gatewayData": [
+      {
+        "tag_id": "ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output",
+        "model_id": "test-model.New node.Slow_Flash.Flash_Output",
+        "vqts": [
+          {
+            "v": 1,
+            "q": 192,
+            "t": "2021-12-17T17:47:16.7340000Z"
+          }
+        ],
+        "mimeType": "x-ra/cip/bool"
+      }
+    ],
+    "EventProcessedUtcTime": "2021-12-17T17:47:52.9352640Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2021-12-17T17:45:19.7370000Z",
+    "IoTHub": {
+      "MessageId": "cgp-iot-0.3409001832793839",
+      "CorrelationId": null,
+      "ConnectionDeviceId": "ftedge_gateway_01",
+      "ConnectionDeviceGenerationId": "637680989196195857",
+      "EnqueuedTime": "2021-12-17T17:45:19.7400000Z",
+      "StreamId": null
+    }
+  },
+  {
+    "gatewayData": [
+      {
+        "tag_id": "ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output",
+        "model_id": "test-model.New node.Slow_Flash.Flash_Output",
+        "vqts": [
+          {
+            "v": 1,
+            "q": 192,
+            "t": "2021-12-17T17:47:14.7340000Z"
+          }
+        ],
+        "mimeType": "x-ra/cip/bool"
+      }
+    ],
+    "EventProcessedUtcTime": "2021-12-17T17:47:52.9352640Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2021-12-17T17:45:17.7370000Z",
+    "IoTHub": {
+      "MessageId": "cgp-iot-0.8094030245418773",
+      "CorrelationId": null,
+      "ConnectionDeviceId": "ftedge_gateway_01",
+      "ConnectionDeviceGenerationId": "637680989196195857",
+      "EnqueuedTime": "2021-12-17T17:45:17.7400000Z",
+      "StreamId": null
+    }
+  },
+  {
+    "gatewayData": [
+      {
+        "tag_id": "ra-cip-value://driver-cip/192.168.1.10/SuperFast_Flash.Flash_Output",
+        "vqts": [
+          {
+            "v": 1,
+            "q": 192,
+            "t": "2021-12-17T17:47:13.0470000Z"
+          }
+        ],
+        "mimeType": "x-ra/cip/bool"
+      }
+    ],
+    "EventProcessedUtcTime": "2021-12-17T17:47:52.9352640Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2021-12-17T17:45:16.0500000Z",
+    "IoTHub": {
+      "MessageId": "cgp-iot-0.5986526716847169",
+      "CorrelationId": null,
+      "ConnectionDeviceId": "ftedge_gateway_01",
+      "ConnectionDeviceGenerationId": "637680989196195857",
+      "EnqueuedTime": "2021-12-17T17:45:16.0520000Z",
+      "StreamId": null
+    }
+  },
+  {
+    "gatewayData": [
+      {
+        "tag_id": "ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output",
+        "model_id": "test-model.New node.Slow_Flash.Flash_Output",
+        "vqts": [
+          {
+            "v": 1,
+            "q": 192,
+            "t": "2021-12-17T17:47:12.7340000Z"
+          }
+        ],
+        "mimeType": "x-ra/cip/bool"
+      }
+    ],
+    "EventProcessedUtcTime": "2021-12-17T17:47:52.9352640Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2021-12-17T17:45:15.7330000Z",
+    "IoTHub": {
+      "MessageId": "cgp-iot-0.9752822878303744",
+      "CorrelationId": null,
+      "ConnectionDeviceId": "ftedge_gateway_01",
+      "ConnectionDeviceGenerationId": "637680989196195857",
+      "EnqueuedTime": "2021-12-17T17:45:15.7400000Z",
+      "StreamId": null
+    }
+  },
+  {
+    "gatewayData": [
+      {
+        "tag_id": "ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output",
+        "model_id": "test-model.New node.Slow_Flash.Flash_Output",
+        "vqts": [
+          {
+            "v": 1,
+            "q": 192,
+            "t": "2021-12-17T17:47:10.7340000Z"
+          }
+        ],
+        "mimeType": "x-ra/cip/bool"
+      }
+    ],
+    "EventProcessedUtcTime": "2021-12-17T17:47:51.9343385Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2021-12-17T17:45:13.7480000Z",
+    "IoTHub": {
+      "MessageId": "cgp-iot-0.9674540949672756",
+      "CorrelationId": null,
+      "ConnectionDeviceId": "ftedge_gateway_01",
+      "ConnectionDeviceGenerationId": "637680989196195857",
+      "EnqueuedTime": "2021-12-17T17:45:13.7400000Z",
+      "StreamId": null
+    }
+  },
+  {
+    "gatewayData": [
+      {
+        "tag_id": "ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output",
+        "model_id": "test-model.New node.Slow_Flash.Flash_Output",
+        "vqts": [
+          {
+            "v": 1,
+            "q": 192,
+            "t": "2021-12-17T17:47:08.7330000Z"
+          }
+        ],
+        "mimeType": "x-ra/cip/bool"
+      }
+    ],
+    "EventProcessedUtcTime": "2021-12-17T17:47:51.9343385Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2021-12-17T17:45:11.7480000Z",
+    "IoTHub": {
+      "MessageId": "cgp-iot-0.7628735000558142",
+      "CorrelationId": null,
+      "ConnectionDeviceId": "ftedge_gateway_01",
+      "ConnectionDeviceGenerationId": "637680989196195857",
+      "EnqueuedTime": "2021-12-17T17:45:11.7400000Z",
+      "StreamId": null
+    }
+  },
+  {
+    "gatewayData": [
+      {
+        "tag_id": "ra-cip-value://driver-cip/192.168.1.10/SuperFast_Flash.Flash_Output",
+        "vqts": [
+          {
+            "v": 0,
+            "q": 192,
+            "t": "2021-12-17T17:47:07.0460000Z"
+          }
+        ],
+        "mimeType": "x-ra/cip/bool"
+      }
+    ],
+    "EventProcessedUtcTime": "2021-12-17T17:47:51.9343385Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2021-12-17T17:45:10.0610000Z",
+    "IoTHub": {
+      "MessageId": "cgp-iot-0.11625403342293383",
+      "CorrelationId": null,
+      "ConnectionDeviceId": "ftedge_gateway_01",
+      "ConnectionDeviceGenerationId": "637680989196195857",
+      "EnqueuedTime": "2021-12-17T17:45:10.0520000Z",
+      "StreamId": null
+    }
+  },
+  {
+    "gatewayData": [
+      {
+        "tag_id": "ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output",
+        "model_id": "test-model.New node.Slow_Flash.Flash_Output",
+        "vqts": [
+          {
+            "v": 1,
+            "q": 192,
+            "t": "2021-12-17T17:47:06.7330000Z"
+          }
+        ],
+        "mimeType": "x-ra/cip/bool"
+      }
+    ],
+    "EventProcessedUtcTime": "2021-12-17T17:47:51.9343385Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2021-12-17T17:45:09.7330000Z",
+    "IoTHub": {
+      "MessageId": "cgp-iot-0.37630497133147545",
+      "CorrelationId": null,
+      "ConnectionDeviceId": "ftedge_gateway_01",
+      "ConnectionDeviceGenerationId": "637680989196195857",
+      "EnqueuedTime": "2021-12-17T17:45:09.7400000Z",
+      "StreamId": null
+    }
+  },
+  {
+    "gatewayData": [
+      {
+        "tag_id": "ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output",
+        "model_id": "test-model.New node.Slow_Flash.Flash_Output",
+        "vqts": [
+          {
+            "v": 1,
+            "q": 192,
+            "t": "2021-12-17T17:47:04.7330000Z"
+          }
+        ],
+        "mimeType": "x-ra/cip/bool"
+      }
+    ],
+    "EventProcessedUtcTime": "2021-12-17T17:47:51.9343385Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2021-12-17T17:45:07.7480000Z",
+    "IoTHub": {
+      "MessageId": "cgp-iot-0.9936090566887592",
+      "CorrelationId": null,
+      "ConnectionDeviceId": "ftedge_gateway_01",
+      "ConnectionDeviceGenerationId": "637680989196195857",
+      "EnqueuedTime": "2021-12-17T17:45:07.7400000Z",
+      "StreamId": null
+    }
+  },
+  {
+    "gatewayData": [
+      {
+        "tag_id": "ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output",
+        "model_id": "test-model.New node.Slow_Flash.Flash_Output",
+        "vqts": [
+          {
+            "v": 1,
+            "q": 192,
+            "t": "2021-12-17T17:47:02.7330000Z"
+          }
+        ],
+        "mimeType": "x-ra/cip/bool"
+      }
+    ],
+    "EventProcessedUtcTime": "2021-12-17T17:47:51.9343385Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2021-12-17T17:45:05.7460000Z",
+    "IoTHub": {
+      "MessageId": "cgp-iot-0.4787675006622858",
+      "CorrelationId": null,
+      "ConnectionDeviceId": "ftedge_gateway_01",
+      "ConnectionDeviceGenerationId": "637680989196195857",
+      "EnqueuedTime": "2021-12-17T17:45:05.7390000Z",
+      "StreamId": null
+    }
+  },
+  {
+    "gatewayData": [
+      {
+        "tag_id": "ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output",
+        "model_id": "test-model.New node.Slow_Flash.Flash_Output",
+        "vqts": [
+          {
+            "v": 1,
+            "q": 192,
+            "t": "2021-12-17T17:47:00.7330000Z"
+          }
+        ],
+        "mimeType": "x-ra/cip/bool"
+      }
+    ],
+    "EventProcessedUtcTime": "2021-12-17T17:47:51.9343385Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2021-12-17T17:45:03.7460000Z",
+    "IoTHub": {
+      "MessageId": "cgp-iot-0.3962982515710156",
+      "CorrelationId": null,
+      "ConnectionDeviceId": "ftedge_gateway_01",
+      "ConnectionDeviceGenerationId": "637680989196195857",
+      "EnqueuedTime": "2021-12-17T17:45:03.7390000Z",
+      "StreamId": null
+    }
+  },
+  {
+    "gatewayData": [
+      {
+        "tag_id": "ra-cip-value://driver-cip/192.168.1.10/SuperFast_Flash.Flash_Output",
+        "vqts": [
+          {
+            "v": 1,
+            "q": 192,
+            "t": "2021-12-17T17:46:59.0460000Z"
+          }
+        ],
+        "mimeType": "x-ra/cip/bool"
+      }
+    ],
+    "EventProcessedUtcTime": "2021-12-17T17:47:51.9343385Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2021-12-17T17:45:02.0580000Z",
+    "IoTHub": {
+      "MessageId": "cgp-iot-0.98923822217662",
+      "CorrelationId": null,
+      "ConnectionDeviceId": "ftedge_gateway_01",
+      "ConnectionDeviceGenerationId": "637680989196195857",
+      "EnqueuedTime": "2021-12-17T17:45:02.0520000Z",
+      "StreamId": null
+    }
+  },
+  {
+    "gatewayData": [
+      {
+        "tag_id": "ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output",
+        "model_id": "test-model.New node.Slow_Flash.Flash_Output",
+        "vqts": [
+          {
+            "v": 1,
+            "q": 192,
+            "t": "2021-12-17T17:46:58.7330000Z"
+          }
+        ],
+        "mimeType": "x-ra/cip/bool"
+      }
+    ],
+    "EventProcessedUtcTime": "2021-12-17T17:47:51.9343385Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2021-12-17T17:45:01.7460000Z",
+    "IoTHub": {
+      "MessageId": "cgp-iot-0.21374221889011258",
+      "CorrelationId": null,
+      "ConnectionDeviceId": "ftedge_gateway_01",
+      "ConnectionDeviceGenerationId": "637680989196195857",
+      "EnqueuedTime": "2021-12-17T17:45:01.7390000Z",
+      "StreamId": null
+    }
+  },
+  {
+    "gatewayData": [
+      {
+        "tag_id": "ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output",
+        "model_id": "test-model.New node.Slow_Flash.Flash_Output",
+        "vqts": [
+          {
+            "v": 1,
+            "q": 192,
+            "t": "2021-12-17T17:46:56.7330000Z"
+          }
+        ],
+        "mimeType": "x-ra/cip/bool"
+      }
+    ],
+    "EventProcessedUtcTime": "2021-12-17T17:47:51.9343385Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2021-12-17T17:44:59.7460000Z",
+    "IoTHub": {
+      "MessageId": "cgp-iot-0.3811111972505312",
+      "CorrelationId": null,
+      "ConnectionDeviceId": "ftedge_gateway_01",
+      "ConnectionDeviceGenerationId": "637680989196195857",
+      "EnqueuedTime": "2021-12-17T17:44:59.7390000Z",
+      "StreamId": null
+    }
+  },
+  {
+    "gatewayData": [
+      {
+        "tag_id": "ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output",
+        "model_id": "test-model.New node.Slow_Flash.Flash_Output",
+        "vqts": [
+          {
+            "v": 1,
+            "q": 192,
+            "t": "2021-12-17T17:46:54.7320000Z"
+          }
+        ],
+        "mimeType": "x-ra/cip/bool"
+      }
+    ],
+    "EventProcessedUtcTime": "2021-12-17T17:47:51.9343385Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2021-12-17T17:44:57.7460000Z",
+    "IoTHub": {
+      "MessageId": "cgp-iot-0.9719721196400428",
+      "CorrelationId": null,
+      "ConnectionDeviceId": "ftedge_gateway_01",
+      "ConnectionDeviceGenerationId": "637680989196195857",
+      "EnqueuedTime": "2021-12-17T17:44:57.7390000Z",
+      "StreamId": null
+    }
+  },
+  {
+    "gatewayData": [
+      {
+        "tag_id": "ra-cip-value://driver-cip/192.168.1.10/SuperFast_Flash.Flash_Output",
+        "vqts": [
+          {
+            "v": 0,
+            "q": 192,
+            "t": "2021-12-17T17:46:53.0440000Z"
+          }
+        ],
+        "mimeType": "x-ra/cip/bool"
+      }
+    ],
+    "EventProcessedUtcTime": "2021-12-17T17:47:51.9343385Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2021-12-17T17:44:56.0420000Z",
+    "IoTHub": {
+      "MessageId": "cgp-iot-0.9117723674372524",
+      "CorrelationId": null,
+      "ConnectionDeviceId": "ftedge_gateway_01",
+      "ConnectionDeviceGenerationId": "637680989196195857",
+      "EnqueuedTime": "2021-12-17T17:44:56.0520000Z",
+      "StreamId": null
+    }
+  },
+  {
+    "gatewayData": [
+      {
+        "tag_id": "ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output",
+        "model_id": "test-model.New node.Slow_Flash.Flash_Output",
+        "vqts": [
+          {
+            "v": 1,
+            "q": 192,
+            "t": "2021-12-17T17:46:52.7320000Z"
+          }
+        ],
+        "mimeType": "x-ra/cip/bool"
+      }
+    ],
+    "EventProcessedUtcTime": "2021-12-17T17:47:50.9334345Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2021-12-17T17:44:55.7460000Z",
+    "IoTHub": {
+      "MessageId": "cgp-iot-0.03331917720895716",
+      "CorrelationId": null,
+      "ConnectionDeviceId": "ftedge_gateway_01",
+      "ConnectionDeviceGenerationId": "637680989196195857",
+      "EnqueuedTime": "2021-12-17T17:44:55.7390000Z",
+      "StreamId": null
+    }
+  },
+  {
+    "gatewayData": [
+      {
+        "tag_id": "ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output",
+        "model_id": "test-model.New node.Slow_Flash.Flash_Output",
+        "vqts": [
+          {
+            "v": 1,
+            "q": 192,
+            "t": "2021-12-17T17:46:50.7280000Z"
+          }
+        ],
+        "mimeType": "x-ra/cip/bool"
+      }
+    ],
+    "EventProcessedUtcTime": "2021-12-17T17:47:50.9334345Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2021-12-17T17:44:53.7300000Z",
+    "IoTHub": {
+      "MessageId": "cgp-iot-0.09441307362815432",
+      "CorrelationId": null,
+      "ConnectionDeviceId": "ftedge_gateway_01",
+      "ConnectionDeviceGenerationId": "637680989196195857",
+      "EnqueuedTime": "2021-12-17T17:44:53.7390000Z",
+      "StreamId": null
+    }
+  },
+  {
+    "gatewayData": [
+      {
+        "tag_id": "ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output",
+        "model_id": "test-model.New node.Slow_Flash.Flash_Output",
+        "vqts": [
+          {
+            "v": 1,
+            "q": 192,
+            "t": "2021-12-17T17:46:48.7280000Z"
+          }
+        ],
+        "mimeType": "x-ra/cip/bool"
+      }
+    ],
+    "EventProcessedUtcTime": "2021-12-17T17:47:50.9334345Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2021-12-17T17:44:51.7280000Z",
+    "IoTHub": {
+      "MessageId": "cgp-iot-0.5803870812333793",
+      "CorrelationId": null,
+      "ConnectionDeviceId": "ftedge_gateway_01",
+      "ConnectionDeviceGenerationId": "637680989196195857",
+      "EnqueuedTime": "2021-12-17T17:44:51.7390000Z",
+      "StreamId": null
+    }
+  },
+  {
+    "gatewayData": [
+      {
+        "tag_id": "ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output",
+        "model_id": "test-model.New node.Slow_Flash.Flash_Output",
+        "vqts": [
+          {
+            "v": 1,
+            "q": 192,
+            "t": "2021-12-17T17:46:46.7280000Z"
+          }
+        ],
+        "mimeType": "x-ra/cip/bool"
+      }
+    ],
+    "EventProcessedUtcTime": "2021-12-17T17:47:50.9334345Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2021-12-17T17:44:49.7270000Z",
+    "IoTHub": {
+      "MessageId": "cgp-iot-0.8104474024156936",
+      "CorrelationId": null,
+      "ConnectionDeviceId": "ftedge_gateway_01",
+      "ConnectionDeviceGenerationId": "637680989196195857",
+      "EnqueuedTime": "2021-12-17T17:44:49.7390000Z",
+      "StreamId": null
+    }
+  },
+  {
+    "gatewayData": [
+      {
+        "tag_id": "ra-cip-value://driver-cip/192.168.1.10/SuperFast_Flash.Flash_Output",
+        "vqts": [
+          {
+            "v": 1,
+            "q": 192,
+            "t": "2021-12-17T17:46:45.0410000Z"
+          }
+        ],
+        "mimeType": "x-ra/cip/bool"
+      }
+    ],
+    "EventProcessedUtcTime": "2021-12-17T17:47:50.9334345Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2021-12-17T17:44:48.0400000Z",
+    "IoTHub": {
+      "MessageId": "cgp-iot-0.9281137305591427",
+      "CorrelationId": null,
+      "ConnectionDeviceId": "ftedge_gateway_01",
+      "ConnectionDeviceGenerationId": "637680989196195857",
+      "EnqueuedTime": "2021-12-17T17:44:48.0360000Z",
+      "StreamId": null
+    }
+  },
+  {
+    "gatewayData": [
+      {
+        "tag_id": "ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output",
+        "model_id": "test-model.New node.Slow_Flash.Flash_Output",
+        "vqts": [
+          {
+            "v": 1,
+            "q": 192,
+            "t": "2021-12-17T17:46:44.7280000Z"
+          }
+        ],
+        "mimeType": "x-ra/cip/bool"
+      }
+    ],
+    "EventProcessedUtcTime": "2021-12-17T17:47:50.9334345Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2021-12-17T17:44:47.7430000Z",
+    "IoTHub": {
+      "MessageId": "cgp-iot-0.6977842160070844",
+      "CorrelationId": null,
+      "ConnectionDeviceId": "ftedge_gateway_01",
+      "ConnectionDeviceGenerationId": "637680989196195857",
+      "EnqueuedTime": "2021-12-17T17:44:47.7390000Z",
+      "StreamId": null
+    }
+  },
+  {
+    "gatewayData": [
+      {
+        "tag_id": "ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output",
+        "model_id": "test-model.New node.Slow_Flash.Flash_Output",
+        "vqts": [
+          {
+            "v": 1,
+            "q": 192,
+            "t": "2021-12-17T17:46:42.7170000Z"
+          }
+        ],
+        "mimeType": "x-ra/cip/bool"
+      }
+    ],
+    "EventProcessedUtcTime": "2021-12-17T17:47:50.9334345Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2021-12-17T17:44:45.7270000Z",
+    "IoTHub": {
+      "MessageId": "cgp-iot-0.11287477101769827",
+      "CorrelationId": null,
+      "ConnectionDeviceId": "ftedge_gateway_01",
+      "ConnectionDeviceGenerationId": "637680989196195857",
+      "EnqueuedTime": "2021-12-17T17:44:45.7240000Z",
+      "StreamId": null
+    }
+  },
+  {
+    "gatewayData": [
+      {
+        "tag_id": "ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output",
+        "model_id": "test-model.New node.Slow_Flash.Flash_Output",
+        "vqts": [
+          {
+            "v": 1,
+            "q": 192,
+            "t": "2021-12-17T17:46:40.7140000Z"
+          }
+        ],
+        "mimeType": "x-ra/cip/bool"
+      }
+    ],
+    "EventProcessedUtcTime": "2021-12-17T17:47:50.9334345Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2021-12-17T17:44:43.7110000Z",
+    "IoTHub": {
+      "MessageId": "cgp-iot-0.9372857724125199",
+      "CorrelationId": null,
+      "ConnectionDeviceId": "ftedge_gateway_01",
+      "ConnectionDeviceGenerationId": "637680989196195857",
+      "EnqueuedTime": "2021-12-17T17:44:43.7240000Z",
+      "StreamId": null
+    }
+  },
+  {
+    "gatewayData": [
+      {
+        "tag_id": "ra-cip-value://driver-cip/192.168.1.10/SuperFast_Flash.Flash_Output",
+        "vqts": [
+          {
+            "v": 0,
+            "q": 192,
+            "t": "2021-12-17T17:46:39.0130000Z"
+          }
+        ],
+        "mimeType": "x-ra/cip/bool"
+      }
+    ],
+    "EventProcessedUtcTime": "2021-12-17T17:47:50.9284798Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2021-12-17T17:44:42.4150000Z",
+    "IoTHub": {
+      "MessageId": "cgp-iot-0.7738798170758325",
+      "CorrelationId": null,
+      "ConnectionDeviceId": "ftedge_gateway_01",
+      "ConnectionDeviceGenerationId": "637680989196195857",
+      "EnqueuedTime": "2021-12-17T17:44:42.1860000Z",
+      "StreamId": null
+    }
+  },
+  {
+    "gatewayData": [
+      {
+        "tag_id": "ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output",
+        "model_id": "test-model.New node.Slow_Flash.Flash_Output",
+        "vqts": [
+          {
+            "v": 1,
+            "q": 192,
+            "t": "2021-12-17T17:46:31.1580000Z"
+          }
+        ],
+        "mimeType": "x-ra/cip/bool"
+      }
+    ],
+    "EventProcessedUtcTime": "2021-12-17T17:47:50.9284798Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2021-12-17T17:44:34.1650000Z",
+    "IoTHub": {
+      "MessageId": "cgp-iot-0.19395275736015094",
+      "CorrelationId": null,
+      "ConnectionDeviceId": "ftedge_gateway_01",
+      "ConnectionDeviceGenerationId": "637680989196195857",
+      "EnqueuedTime": "2021-12-17T17:44:34.1660000Z",
+      "StreamId": null
+    }
+  },
+  {
+    "gatewayData": [
+      {
+        "tag_id": "ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output",
+        "model_id": "test-model.New node.Slow_Flash.Flash_Output",
+        "vqts": [
+          {
+            "v": 1,
+            "q": 192,
+            "t": "2021-12-17T17:46:29.1580000Z"
+          }
+        ],
+        "mimeType": "x-ra/cip/bool"
+      }
+    ],
+    "EventProcessedUtcTime": "2021-12-17T17:47:50.9284798Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2021-12-17T17:44:32.1640000Z",
+    "IoTHub": {
+      "MessageId": "cgp-iot-0.35367276157605265",
+      "CorrelationId": null,
+      "ConnectionDeviceId": "ftedge_gateway_01",
+      "ConnectionDeviceGenerationId": "637680989196195857",
+      "EnqueuedTime": "2021-12-17T17:44:32.1660000Z",
+      "StreamId": null
+    }
+  },
+  {
+    "gatewayData": [
+      {
+        "tag_id": "ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output",
+        "model_id": "test-model.New node.Slow_Flash.Flash_Output",
+        "vqts": [
+          {
+            "v": 1,
+            "q": 192,
+            "t": "2021-12-17T17:46:27.1510000Z"
+          }
+        ],
+        "mimeType": "x-ra/cip/bool"
+      }
+    ],
+    "EventProcessedUtcTime": "2021-12-17T17:47:50.9284798Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2021-12-17T17:44:30.1640000Z",
+    "IoTHub": {
+      "MessageId": "cgp-iot-0.5453370317501856",
+      "CorrelationId": null,
+      "ConnectionDeviceId": "ftedge_gateway_01",
+      "ConnectionDeviceGenerationId": "637680989196195857",
+      "EnqueuedTime": "2021-12-17T17:44:30.1510000Z",
+      "StreamId": null
+    }
+  },
+  {
+    "gatewayData": [
+      {
+        "tag_id": "ra-cip-value://driver-cip/192.168.1.10/SuperFast_Flash.Flash_Output",
+        "vqts": [
+          {
+            "v": 1,
+            "q": 192,
+            "t": "2021-12-17T17:46:25.4550000Z"
+          }
+        ],
+        "mimeType": "x-ra/cip/bool"
+      }
+    ],
+    "EventProcessedUtcTime": "2021-12-17T17:47:50.9284798Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2021-12-17T17:44:28.4690000Z",
+    "IoTHub": {
+      "MessageId": "cgp-iot-0.9733125224156296",
+      "CorrelationId": null,
+      "ConnectionDeviceId": "ftedge_gateway_01",
+      "ConnectionDeviceGenerationId": "637680989196195857",
+      "EnqueuedTime": "2021-12-17T17:44:28.4630000Z",
+      "StreamId": null
+    }
+  },
+  {
+    "gatewayData": [
+      {
+        "tag_id": "ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output",
+        "model_id": "test-model.New node.Slow_Flash.Flash_Output",
+        "vqts": [
+          {
+            "v": 1,
+            "q": 192,
+            "t": "2021-12-17T17:46:25.1430000Z"
+          }
+        ],
+        "mimeType": "x-ra/cip/bool"
+      }
+    ],
+    "EventProcessedUtcTime": "2021-12-17T17:47:50.9284798Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2021-12-17T17:44:28.1410000Z",
+    "IoTHub": {
+      "MessageId": "cgp-iot-0.894122093785829",
+      "CorrelationId": null,
+      "ConnectionDeviceId": "ftedge_gateway_01",
+      "ConnectionDeviceGenerationId": "637680989196195857",
+      "EnqueuedTime": "2021-12-17T17:44:28.1500000Z",
+      "StreamId": null
+    }
+  },
+  {
+    "gatewayData": [
+      {
+        "tag_id": "ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output",
+        "model_id": "test-model.New node.Slow_Flash.Flash_Output",
+        "vqts": [
+          {
+            "v": 1,
+            "q": 192,
+            "t": "2021-12-17T17:46:23.1430000Z"
+          }
+        ],
+        "mimeType": "x-ra/cip/bool"
+      }
+    ],
+    "EventProcessedUtcTime": "2021-12-17T17:47:50.9284798Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2021-12-17T17:44:26.1560000Z",
+    "IoTHub": {
+      "MessageId": "cgp-iot-0.17007005321258895",
+      "CorrelationId": null,
+      "ConnectionDeviceId": "ftedge_gateway_01",
+      "ConnectionDeviceGenerationId": "637680989196195857",
+      "EnqueuedTime": "2021-12-17T17:44:26.1500000Z",
+      "StreamId": null
+    }
+  },
+  {
+    "gatewayData": [
+      {
+        "tag_id": "ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output",
+        "model_id": "test-model.New node.Slow_Flash.Flash_Output",
+        "vqts": [
+          {
+            "v": 1,
+            "q": 192,
+            "t": "2021-12-17T17:46:21.1430000Z"
+          }
+        ],
+        "mimeType": "x-ra/cip/bool"
+      }
+    ],
+    "EventProcessedUtcTime": "2021-12-17T17:47:50.9284798Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2021-12-17T17:44:24.1560000Z",
+    "IoTHub": {
+      "MessageId": "cgp-iot-0.4407470387130552",
+      "CorrelationId": null,
+      "ConnectionDeviceId": "ftedge_gateway_01",
+      "ConnectionDeviceGenerationId": "637680989196195857",
+      "EnqueuedTime": "2021-12-17T17:44:24.1510000Z",
+      "StreamId": null
+    }
+  },
+  {
+    "gatewayData": [
+      {
+        "tag_id": "ra-cip-value://driver-cip/192.168.1.10/SuperFast_Flash.Flash_Output",
+        "vqts": [
+          {
+            "v": 0,
+            "q": 192,
+            "t": "2021-12-17T17:46:19.4550000Z"
+          }
+        ],
+        "mimeType": "x-ra/cip/bool"
+      }
+    ],
+    "EventProcessedUtcTime": "2021-12-17T17:47:50.9284798Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2021-12-17T17:44:22.4530000Z",
+    "IoTHub": {
+      "MessageId": "cgp-iot-0.3479720637294472",
+      "CorrelationId": null,
+      "ConnectionDeviceId": "ftedge_gateway_01",
+      "ConnectionDeviceGenerationId": "637680989196195857",
+      "EnqueuedTime": "2021-12-17T17:44:22.4630000Z",
+      "StreamId": null
+    }
+  },
+  {
+    "gatewayData": [
+      {
+        "tag_id": "ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output",
+        "model_id": "test-model.New node.Slow_Flash.Flash_Output",
+        "vqts": [
+          {
+            "v": 1,
+            "q": 192,
+            "t": "2021-12-17T17:46:19.1430000Z"
+          }
+        ],
+        "mimeType": "x-ra/cip/bool"
+      }
+    ],
+    "EventProcessedUtcTime": "2021-12-17T17:47:50.9284798Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2021-12-17T17:44:22.1560000Z",
+    "IoTHub": {
+      "MessageId": "cgp-iot-0.04410153070518419",
+      "CorrelationId": null,
+      "ConnectionDeviceId": "ftedge_gateway_01",
+      "ConnectionDeviceGenerationId": "637680989196195857",
+      "EnqueuedTime": "2021-12-17T17:44:22.1500000Z",
+      "StreamId": null
+    }
+  },
+  {
+    "gatewayData": [
+      {
+        "tag_id": "ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output",
+        "model_id": "test-model.New node.Slow_Flash.Flash_Output",
+        "vqts": [
+          {
+            "v": 1,
+            "q": 192,
+            "t": "2021-12-17T17:46:17.1430000Z"
+          }
+        ],
+        "mimeType": "x-ra/cip/bool"
+      }
+    ],
+    "EventProcessedUtcTime": "2021-12-17T17:47:49.9184864Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2021-12-17T17:44:20.1560000Z",
+    "IoTHub": {
+      "MessageId": "cgp-iot-0.43187540703989136",
+      "CorrelationId": null,
+      "ConnectionDeviceId": "ftedge_gateway_01",
+      "ConnectionDeviceGenerationId": "637680989196195857",
+      "EnqueuedTime": "2021-12-17T17:44:20.1500000Z",
+      "StreamId": null
+    }
+  },
+  {
+    "gatewayData": [
+      {
+        "tag_id": "ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output",
+        "model_id": "test-model.New node.Slow_Flash.Flash_Output",
+        "vqts": [
+          {
+            "v": 1,
+            "q": 192,
+            "t": "2021-12-17T17:46:15.1430000Z"
+          }
+        ],
+        "mimeType": "x-ra/cip/bool"
+      }
+    ],
+    "EventProcessedUtcTime": "2021-12-17T17:47:49.9184864Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2021-12-17T17:44:18.1560000Z",
+    "IoTHub": {
+      "MessageId": "cgp-iot-0.06957868688496305",
+      "CorrelationId": null,
+      "ConnectionDeviceId": "ftedge_gateway_01",
+      "ConnectionDeviceGenerationId": "637680989196195857",
+      "EnqueuedTime": "2021-12-17T17:44:18.1500000Z",
+      "StreamId": null
+    }
+  },
+  {
+    "gatewayData": [
+      {
+        "tag_id": "ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output",
+        "model_id": "test-model.New node.Slow_Flash.Flash_Output",
+        "vqts": [
+          {
+            "v": 1,
+            "q": 192,
+            "t": "2021-12-17T17:46:13.1430000Z"
+          }
+        ],
+        "mimeType": "x-ra/cip/bool"
+      }
+    ],
+    "EventProcessedUtcTime": "2021-12-17T17:47:49.9184864Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2021-12-17T17:44:16.1560000Z",
+    "IoTHub": {
+      "MessageId": "cgp-iot-0.007201142064421129",
+      "CorrelationId": null,
+      "ConnectionDeviceId": "ftedge_gateway_01",
+      "ConnectionDeviceGenerationId": "637680989196195857",
+      "EnqueuedTime": "2021-12-17T17:44:16.1500000Z",
+      "StreamId": null
+    }
+  },
+  {
+    "gatewayData": [
+      {
+        "tag_id": "ra-cip-value://driver-cip/192.168.1.10/SuperFast_Flash.Flash_Output",
+        "vqts": [
+          {
+            "v": 1,
+            "q": 192,
+            "t": "2021-12-17T17:46:11.4550000Z"
+          }
+        ],
+        "mimeType": "x-ra/cip/bool"
+      }
+    ],
+    "EventProcessedUtcTime": "2021-12-17T17:47:49.9184864Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2021-12-17T17:44:14.4690000Z",
+    "IoTHub": {
+      "MessageId": "cgp-iot-0.2668089268064009",
+      "CorrelationId": null,
+      "ConnectionDeviceId": "ftedge_gateway_01",
+      "ConnectionDeviceGenerationId": "637680989196195857",
+      "EnqueuedTime": "2021-12-17T17:44:14.4630000Z",
+      "StreamId": null
+    }
+  },
+  {
+    "gatewayData": [
+      {
+        "tag_id": "ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output",
+        "model_id": "test-model.New node.Slow_Flash.Flash_Output",
+        "vqts": [
+          {
+            "v": 1,
+            "q": 192,
+            "t": "2021-12-17T17:46:11.1430000Z"
+          }
+        ],
+        "mimeType": "x-ra/cip/bool"
+      }
+    ],
+    "EventProcessedUtcTime": "2021-12-17T17:47:49.9184864Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2021-12-17T17:44:14.1570000Z",
+    "IoTHub": {
+      "MessageId": "cgp-iot-0.7941696042059034",
+      "CorrelationId": null,
+      "ConnectionDeviceId": "ftedge_gateway_01",
+      "ConnectionDeviceGenerationId": "637680989196195857",
+      "EnqueuedTime": "2021-12-17T17:44:14.1500000Z",
+      "StreamId": null
+    }
+  },
+  {
+    "gatewayData": [
+      {
+        "tag_id": "ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output",
+        "model_id": "test-model.New node.Slow_Flash.Flash_Output",
+        "vqts": [
+          {
+            "v": 1,
+            "q": 192,
+            "t": "2021-12-17T17:46:09.1430000Z"
+          }
+        ],
+        "mimeType": "x-ra/cip/bool"
+      }
+    ],
+    "EventProcessedUtcTime": "2021-12-17T17:47:49.9184864Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2021-12-17T17:44:12.1540000Z",
+    "IoTHub": {
+      "MessageId": "cgp-iot-0.9393034429043052",
+      "CorrelationId": null,
+      "ConnectionDeviceId": "ftedge_gateway_01",
+      "ConnectionDeviceGenerationId": "637680989196195857",
+      "EnqueuedTime": "2021-12-17T17:44:12.1500000Z",
+      "StreamId": null
+    }
+  },
+  {
+    "gatewayData": [
+      {
+        "tag_id": "ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output",
+        "model_id": "test-model.New node.Slow_Flash.Flash_Output",
+        "vqts": [
+          {
+            "v": 1,
+            "q": 192,
+            "t": "2021-12-17T17:46:07.1400000Z"
+          }
+        ],
+        "mimeType": "x-ra/cip/bool"
+      }
+    ],
+    "EventProcessedUtcTime": "2021-12-17T17:47:49.9184864Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2021-12-17T17:44:10.1470000Z",
+    "IoTHub": {
+      "MessageId": "cgp-iot-0.2734000106969583",
+      "CorrelationId": null,
+      "ConnectionDeviceId": "ftedge_gateway_01",
+      "ConnectionDeviceGenerationId": "637680989196195857",
+      "EnqueuedTime": "2021-12-17T17:44:10.1500000Z",
+      "StreamId": null
+    }
+  },
+  {
+    "gatewayData": [
+      {
+        "tag_id": "ra-cip-value://driver-cip/192.168.1.10/SuperFast_Flash.Flash_Output",
+        "vqts": [
+          {
+            "v": 0,
+            "q": 192,
+            "t": "2021-12-17T17:46:05.4520000Z"
+          }
+        ],
+        "mimeType": "x-ra/cip/bool"
+      }
+    ],
+    "EventProcessedUtcTime": "2021-12-17T17:47:49.9184864Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2021-12-17T17:44:08.4540000Z",
+    "IoTHub": {
+      "MessageId": "cgp-iot-0.8346917540099141",
+      "CorrelationId": null,
+      "ConnectionDeviceId": "ftedge_gateway_01",
+      "ConnectionDeviceGenerationId": "637680989196195857",
+      "EnqueuedTime": "2021-12-17T17:44:08.4630000Z",
+      "StreamId": null
+    }
+  },
+  {
+    "gatewayData": [
+      {
+        "tag_id": "ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output",
+        "model_id": "test-model.New node.Slow_Flash.Flash_Output",
+        "vqts": [
+          {
+            "v": 1,
+            "q": 192,
+            "t": "2021-12-17T17:46:05.1400000Z"
+          }
+        ],
+        "mimeType": "x-ra/cip/bool"
+      }
+    ],
+    "EventProcessedUtcTime": "2021-12-17T17:47:49.9184864Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2021-12-17T17:44:08.1510000Z",
+    "IoTHub": {
+      "MessageId": "cgp-iot-0.07821664546786145",
+      "CorrelationId": null,
+      "ConnectionDeviceId": "ftedge_gateway_01",
+      "ConnectionDeviceGenerationId": "637680989196195857",
+      "EnqueuedTime": "2021-12-17T17:44:08.1500000Z",
+      "StreamId": null
+    }
+  },
+  {
+    "gatewayData": [
+      {
+        "tag_id": "ra-cip-value://driver-cip/192.168.1.10/Slow_Flash.Flash_Output",
+        "model_id": "test-model.New node.Slow_Flash.Flash_Output",
+        "vqts": [
+          {
+            "v": 1,
+            "q": 192,
+            "t": "2021-12-17T17:46:03.1370000Z"
+          }
+        ],
+        "mimeType": "x-ra/cip/bool"
+      }
+    ],
+    "EventProcessedUtcTime": "2021-12-17T17:47:49.9184864Z",
+    "PartitionId": 0,
+    "EventEnqueuedUtcTime": "2021-12-17T17:44:06.5100000Z",
+    "IoTHub": {
+      "MessageId": "cgp-iot-0.17753723010177946",
+      "CorrelationId": null,
+      "ConnectionDeviceId": "ftedge_gateway_01",
+      "ConnectionDeviceGenerationId": "637680989196195857",
+      "EnqueuedTime": "2021-12-17T17:44:06.2750000Z",
+      "StreamId": null
+    }
+  }
+]
