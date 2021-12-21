@@ -4,6 +4,7 @@
 
 - Azure Account
 - Resource Group
+- https://uwm.edu/csi/
 
 ## End to End Data flow and processing
 
