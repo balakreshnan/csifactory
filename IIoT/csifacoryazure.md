@@ -282,3 +282,38 @@ df1.repartition(1).write.mode("overwrite").parquet('abfss://containername@storag
 - Create a view from above saved parquet file
 - Use Power BI and connect to Synapse workspace using serverless sql
 - Create a dashboard with the above view
+
+## Factory AI
+
+- Log into Factory Talk Edge gateway
+- Create a data source to configure for CIP driver first
+- First create data sources - connect to PLC with CIP driver
+
+![alt text](https://github.com/balakreshnan/csifactory/blob/main/IIoT/images/csi10.jpg "Architecture")
+
+- Select list of tags to pull data
+- Once created start the driver
+- Next configure IoT hub as source
+- get device name and connection string
+
+![alt text](https://github.com/balakreshnan/csifactory/blob/main/IIoT/images/csi9.jpg "Architecture")
+
+- Create a Model and above PLC data sources
+
+![alt text](https://github.com/balakreshnan/csifactory/blob/main/IIoT/images/csi11.jpg "Architecture")
+
+- Now create a aplication and assign model to tags and bind to get tags.
+
+![alt text](https://github.com/balakreshnan/csifactory/blob/main/IIoT/images/csi12.jpg "Architecture")
+
+- Now save and run
+- Run the Assembly line
+- Here is the output
+
+```
+{"gatewayData":[{"tag_id":"ra-cip-value://driver-cip/192.168.1.11/Production_History[0].MES_Schedule_Unique_ID","model_id":"testbedprocess.MES_ID.Production_History[0].MES_Schedule_Unique_ID","vqts":[{"v":"1910848667","q":192,"t":"2022-02-10T16:52:58.950Z"}],"mimeType":"x-ra/clx/STRING#string"}],"EventProcessedUtcTime":"2022-02-10T16:50:33.8397393Z","EventEnqueuedUtcTime":"2022-02-10T16:50:33.5620000Z","ConnectionDeviceId":"ftedge_gateway_01","EnqueuedTime":null}
+{"gatewayData":[{"tag_id":"ra-cip-value://driver-cip/192.168.1.11/Production_History[0].MES_Schedule_Unique_ID","model_id":"testbedprocess.MES_ID.Production_History[0].MES_Schedule_Unique_ID","vqts":[{"v":"","q":192,"t":"2022-02-10T16:53:24.975Z"}],"mimeType":"x-ra/clx/STRING#string"}],"EventProcessedUtcTime":"2022-02-10T16:50:59.2190695Z","EventEnqueuedUtcTime":"2022-02-10T16:50:59.0540000Z","ConnectionDeviceId":"ftedge_gateway_01","EnqueuedTime":null}
+{"gatewayData":[{"tag_id":"ra-cip-value://driver-cip/192.168.1.11/Production_History[0].MES_Schedule_Unique_ID","model_id":"testbedprocess.MES_ID.Production_History[0].MES_Schedule_Unique_ID","vqts":[{"v":"1910873417","q":192,"t":"2022-02-10T16:56:19.020Z"}],"mimeType":"x-ra/clx/STRING#string"}],"EventProcessedUtcTime":"2022-02-10T16:53:53.1879692Z","EventEnqueuedUtcTime":"2022-02-10T16:53:53.0960000Z","ConnectionDeviceId":"ftedge_gateway_01","EnqueuedTime":null}
+{"gatewayData":[{"tag_id":"ra-cip-value://driver-cip/192.168.1.11/Production_History[0].MES_Schedule_Unique_ID","model_id":"testbedprocess.MES_ID.Production_History[0].MES_Schedule_Unique_ID","vqts":[{"v":"","q":192,"t":"2022-02-10T17:03:13.148Z"}],"mimeType":"x-ra/clx/STRING#string"}],"EventProcessedUtcTime":"2022-02-10T17:00:47.4278985Z","EventEnqueuedUtcTime":"2022-02-10T17:00:47.2190000Z","ConnectionDeviceId":"ftedge_gateway_01","EnqueuedTime":null}
+{"gatewayData":[{"tag_id":"ra-cip-value://driver-cip/192.168.1.11/Production_History[0].MES_Schedule_Unique_ID","model_id":"testbedprocess.MES_ID.Production_History[0].MES_Schedule_Unique_ID","vqts":[{"v":"1910902340","q":192,"t":"2022-02-10T17:06:07.217Z"}],"mimeType":"x-ra/clx/STRING#string"}],"EventProcessedUtcTime":"2022-02-10T17:03:41.3861650Z","EventEnqueuedUtcTime":"2022-02-10T17:03:41.2880000Z","ConnectionDeviceId":"ftedge_gateway_01","EnqueuedTime":null}
+```
