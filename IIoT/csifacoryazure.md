@@ -316,11 +316,7 @@ df1.repartition(1).write.mode("overwrite").parquet('abfss://containername@storag
 {"gatewayData":[{"tag_id":"ra-cip-value://driver-cip/192.168.1.11/Production_History[0].MES_Schedule_Unique_ID","model_id":"testbedprocess.MES_ID.Production_History[0].MES_Schedule_Unique_ID","vqts":[{"v":"1910873417","q":192,"t":"2022-02-10T16:56:19.020Z"}],"mimeType":"x-ra/clx/STRING#string"}],"EventProcessedUtcTime":"2022-02-10T16:53:53.1879692Z","EventEnqueuedUtcTime":"2022-02-10T16:53:53.0960000Z","ConnectionDeviceId":"ftedge_gateway_01","EnqueuedTime":null}
 {"gatewayData":[{"tag_id":"ra-cip-value://driver-cip/192.168.1.11/Production_History[0].MES_Schedule_Unique_ID","model_id":"testbedprocess.MES_ID.Production_History[0].MES_Schedule_Unique_ID","vqts":[{"v":"","q":192,"t":"2022-02-10T17:03:13.148Z"}],"mimeType":"x-ra/clx/STRING#string"}],"EventProcessedUtcTime":"2022-02-10T17:00:47.4278985Z","EventEnqueuedUtcTime":"2022-02-10T17:00:47.2190000Z","ConnectionDeviceId":"ftedge_gateway_01","EnqueuedTime":null}
 {"gatewayData":[{"tag_id":"ra-cip-value://driver-cip/192.168.1.11/Production_History[0].MES_Schedule_Unique_ID","model_id":"testbedprocess.MES_ID.Production_History[0].MES_Schedule_Unique_ID","vqts":[{"v":"1910902340","q":192,"t":"2022-02-10T17:06:07.217Z"}],"mimeType":"x-ra/clx/STRING#string"}],"EventProcessedUtcTime":"2022-02-10T17:03:41.3861650Z","EventEnqueuedUtcTime":"2022-02-10T17:03:41.2880000Z","ConnectionDeviceId":"ftedge_gateway_01","EnqueuedTime":null}
-<<<<<<< HEAD
 ```
-=======
-```
->>>>>>> 4b01bc04542b9ff31af78787c35d98f006a9d426
 
 - Full Single line data with 5 via fills
 
