@@ -1,0 +1,8 @@
+Data Source,Tag,Name,Parent FQN,Type
+,,tb1-process-model,gateway,model
+,,cap_weight,tb1-process-model,node
+tb1-process-plc,Production_History[0].Cap_Weight,Production_History[0].Cap_Weight,tb1-process-model.cap_weight,property
+,,capping_station_complete,tb1-process-model,node
+tb1-process-plc,Production_History[0].Capping_Station_Complete,Production_History[0].Capping_Station_Complete,tb1-process-model.capping_station_complete,property
+,,capping_station_duration,tb1-process-model,node
+tb1-process-plc,Production_History[0].Capping_Station_Duration,Production_History[0].Capping_Station_Duration,tb1-process-model.capping_station_duration,property
