@@ -126,6 +126,14 @@ display(df1.limit(10))
 
 ![alt text](https://github.com/balakreshnan/csifactory/blob/main/IIoT/images/csi13.jpg "Architecture")
 
+- Display and list only DryFillFinishTimeYear
+
+```
+display(df1.where(df1.tagidformatted == 'DryFillFinishTimeYear'))
+```
+
+![alt text](https://github.com/balakreshnan/csifactory/blob/main/IIoT/images/csi15.jpg "Architecture")
+
 - pivot the data
 
 ```
