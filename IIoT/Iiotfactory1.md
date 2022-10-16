@@ -104,14 +104,6 @@ df.select("ConnectionDeviceId", "tag_id", "vqts1.q", "vqts1.t", "vqts1.v").repar
 df1 = df.select("ConnectionDeviceId", "tag_id", "vqts1.q", "vqts1.t", "vqts1.v")
 ```
 
-- display dataframe
-
-```
-display(df1.limit(10))
-```
-
-![alt text](https://github.com/balakreshnan/csifactory/blob/main/IIoT/images/csi13.jpg "Architecture")
-
 - Let's create column which is readable
 - Create a column with actual name of the sensor
 
@@ -125,6 +117,14 @@ df1 = df1.withColumn('tagidformatted', regexp_replace('tag_id', 'ra-cip-value://
 df1 = df1.withColumn('tagidformatted', regexp_replace('tagidformatted', "[^0-9A-Za-z]", ''))
 df1 = df1.withColumn('tagidformatted', regexp_replace('tagidformatted', "0", ''))
 ```
+
+- display dataframe
+
+```
+display(df1.limit(10))
+```
+
+![alt text](https://github.com/balakreshnan/csifactory/blob/main/IIoT/images/csi13.jpg "Architecture")
 
 - pivot the data
 
