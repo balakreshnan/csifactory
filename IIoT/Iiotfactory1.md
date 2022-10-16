@@ -98,11 +98,42 @@ display(df.select("ConnectionDeviceId", "tag_id", "vqts1.q", "vqts1.t", "vqts1.v
 df.select("ConnectionDeviceId", "tag_id", "vqts1.q", "vqts1.t", "vqts1.v").repartition(1).write.mode("overwrite").parquet('abfss://container@storageaccount.dfs.core.windows.net/rawdata/')
 ```
 
-- pivot the data
+- Create a new data frame with the new schema
+
+```
+df1 = df.select("ConnectionDeviceId", "tag_id", "vqts1.q", "vqts1.t", "vqts1.v")
+```
+
+- display dataframe
+
+```
+display(df1.limit(10))
+```
+
+![alt text](https://github.com/balakreshnan/csifactory/blob/main/IIoT/images/csi13.jpg "Architecture")
+
+- Let's create column which is readable
+- Create a column with actual name of the sensor
 
 ```
 from pyspark.sql.functions import *
 
-pivotDF = df1.groupBy('t', 'tag_id').pivot("tag_id").agg(first("v"))
+df1 = df1.withColumn('tagidformatted', regexp_replace('tag_id', 'ra-cip-value://driver-cip/192.168.1.11/Production_History', ''))
+```
+
+```
+df1 = df1.withColumn('tagidformatted', regexp_replace('tagidformatted', "[^0-9A-Za-z]", ''))
+df1 = df1.withColumn('tagidformatted', regexp_replace('tagidformatted', "0", ''))
+```
+
+- pivot the data
+
+```
+from pyspark.sql.functions import *
+import pyspark.sql.functions as F
+
+pivotDF = df1.groupBy('t', 'ConnectionDeviceId','tagidformatted').pivot("tagidformatted").agg(F.first('v')).fillna(0)
 pivotDF.show()
 ```
+
+![alt text](https://github.com/balakreshnan/csifactory/blob/main/IIoT/images/csi14.jpg "Architecture")
