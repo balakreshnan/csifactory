@@ -22,39 +22,10 @@ from pyspark.sql.functions import split, explode
 jsonpath = "abfss://container@storageaccount.dfs.core.windows.net/vialtest/*.json"
 ```
 
-- Set the schema
-
-```
-from pyspark.sql.types import *
-
-schema = StructType([
-  StructField("ConnectionDeviceId", StringType()),
-  StructField("EnqueuedTime", StringType()),
-  StructField("EventEnqueuedUtcTime", StringType()),
-  StructField("EventProcessedUtcTime", StringType()),
-  StructField("gatewayData", ArrayType(
-      StructType([
-          StructField("mimeType", StringType()),
-          StructField("model_id", StringType()),
-          StructField("tag_id", StringType()),
-          StructField("vqts", ArrayType(
-              StructType([
-                      StructField('q', StringType()),
-                      StructField('t', StringType()),
-                      StructField('v', StringType())
-                  ])
-                )
-            )
-        ])
-    )
-)
-])
-```
-
 - Read the frame
 
 ```
-df = spark.read.schema(schema).json(jsonpath)
+df = spark.read.json(jsonpath)
 ```
 
 - Print Schema
@@ -67,69 +38,55 @@ df.printSchema
 - create a new column
 
 ```
-import pyspark.sql.functions as f
-from pyspark.sql.types import *
+from pyspark.sql import functions as f
 
-df = df.withColumn('tag_id', f.explode('gatewayData.tag_id'))
-df = df.withColumn('vqts', f.explode('gatewayData.vqts'))
+df2 = df.withColumn("gatewayDataexp",f.explode('gatewayData'))
+df3 = df2.withColumn("vqtsexp",f.explode('gatewayDataexp.vqts'))
 ```
 
 - display dataframe
 
 ```
-display(df)
+display(df3.limit(10))
 ```
 
-- split sensor data
+- save the dataframe
 
 ```
-df = df.withColumn('vqts1', f.explode('vqts'))
-```
-
-- display dataframe
-
-```
-display(df.select("ConnectionDeviceId", "tag_id", "vqts1.q", "vqts1.t", "vqts1.v"))
-```
-
-- Write back dataframe
-
-```
-df.select("ConnectionDeviceId", "tag_id", "vqts1.q", "vqts1.t", "vqts1.v").repartition(1).write.mode("overwrite").parquet('abfss://container@storageaccount.dfs.core.windows.net/rawdata/')
-```
-
-- Create a new data frame with the new schema
-
-```
-df1 = df.select("ConnectionDeviceId", "tag_id", "vqts1.q", "vqts1.t", "vqts1.v")
-```
-
-- Let's create column which is readable
-- Create a column with actual name of the sensor
-
-```
-from pyspark.sql.functions import *
-
-df1 = df1.withColumn('tagidformatted', regexp_replace('tag_id', 'ra-cip-value://driver-cip/192.168.1.11/Production_History', ''))
-```
-
-```
-df1 = df1.withColumn('tagidformatted', regexp_replace('tagidformatted', "[^0-9A-Za-z]", ''))
-df1 = df1.withColumn('tagidformatted', regexp_replace('tagidformatted', "0", ''))
+df_final = df3.selectExpr("ConnectionDeviceId","EventProcessedUtcTime","EventEnqueuedUtcTime","ConnectionDeviceId","gatewayDataexp.model_id as model_id","gatewayDataexp.tag_id as tag_id"
+,"vqtsexp.v as v","vqtsexp.q as q","vqtsexp.t as t"
+)
 ```
 
 - display dataframe
 
 ```
-display(df1.limit(10))
+display(df_final.limit(10))
 ```
 
 ![alt text](https://github.com/balakreshnan/csifactory/blob/main/IIoT/images/csi13.jpg "Architecture")
 
+- Create tag id formatted
+
+```
+from pyspark.sql.functions import *
+
+df_final = df_final.withColumn('tagidformatted', regexp_replace('tag_id', 'ra-cip-value://driver-cip/192.168.1.11/Production_History', ''))
+```
+
+```
+df_final = df_final.withColumn('tagidformatted', regexp_replace('tagidformatted', "[^0-9A-Za-z]", ''))
+df_final = df_final.withColumn('tagidformatted', regexp_replace('tagidformatted', "0", ''))
+```
+
+```
+display(df_final.limit(5))
+```
+
 - Display and list only DryFillFinishTimeYear
 
 ```
-display(df1.where(df1.tagidformatted == 'DryFillFinishTimeYear'))
+display(df_final.where(df_final.tagidformatted == 'DryFillFinishTimeYear'))
 ```
 
 ![alt text](https://github.com/balakreshnan/csifactory/blob/main/IIoT/images/csi15.jpg "Architecture")
@@ -145,3 +102,25 @@ pivotDF.show()
 ```
 
 ![alt text](https://github.com/balakreshnan/csifactory/blob/main/IIoT/images/csi14.jpg "Architecture")
+
+```
+display(pivotDF.where(pivotDF.DryFillFinishTimeYear != '0'))
+```
+
+- save the pivot
+
+```
+pivotDF.repartition(1).write.mode("overwrite").parquet('abfss://container@storagename.dfs.core.windows.net/pivotdata/')
+```
+
+- now read the pivot data stored
+
+```
+%%pyspark
+df = spark.read.load('abfss://container@storagename.dfs.core.windows.net/pivotdata/*.snappy.parquet', format='parquet')
+display(df.limit(10))
+```
+
+```
+display(df.where(df.DryFillFinishTimeYear != '0'))
+```
