@@ -89,7 +89,7 @@ display(df_final.limit(5))
 display(df_final.where(df_final.tagidformatted == 'DryFillFinishTimeYear'))
 ```
 
-![alt text](https://github.com/balakreshnan/csifactory/blob/main/IIoT/images/csi15.jpg "Architecture")
+![alt text](https://github.com/balakreshnan/csifactory/blob/main/IIoT/images/csi16.jpg "Architecture")
 
 - pivot the data
 
